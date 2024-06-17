@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/htt]s://sujatha001122.github.io/Stock-market/static/css/main.3f18b125.css",
-    "main.js": "/htt]s://sujatha001122.github.io/Stock-market/static/js/main.58e58020.js",
-    "static/js/453.fc50da77.chunk.js": "/htt]s://sujatha001122.github.io/Stock-market/static/js/453.fc50da77.chunk.js",
-    "index.html": "/htt]s://sujatha001122.github.io/Stock-market/index.html",
-    "main.3f18b125.css.map": "/htt]s://sujatha001122.github.io/Stock-market/static/css/main.3f18b125.css.map",
-    "main.58e58020.js.map": "/htt]s://sujatha001122.github.io/Stock-market/static/js/main.58e58020.js.map",
-    "453.fc50da77.chunk.js.map": "/htt]s://sujatha001122.github.io/Stock-market/static/js/453.fc50da77.chunk.js.map"
+    "main.css": "/Stock-market/static/css/main.3f18b125.css",
+    "main.js": "/Stock-market/static/js/main.a3d7c2af.js",
+    "static/js/453.fc50da77.chunk.js": "/Stock-market/static/js/453.fc50da77.chunk.js",
+    "index.html": "/Stock-market/index.html",
+    "main.3f18b125.css.map": "/Stock-market/static/css/main.3f18b125.css.map",
+    "main.a3d7c2af.js.map": "/Stock-market/static/js/main.a3d7c2af.js.map",
+    "453.fc50da77.chunk.js.map": "/Stock-market/static/js/453.fc50da77.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f18b125.css",
-    "static/js/main.58e58020.js"
+    "static/js/main.a3d7c2af.js"
   ]
 }
