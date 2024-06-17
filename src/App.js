@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import MarketSummary from './components/MarketSummary';
+import SectorPerformance from './components/SectorPerformance';
+import MarketsOverview from './components/MarketsOverview';
+import ChartSection from './components/ChartSection';
+import { SelectedSymbolProvider } from './components/SelectedSymbolContext';
+
 import './App.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SelectedSymbolProvider>
+      <div className="app">
+        <Header />
+        <div className="main-content">
+          <div className='overview'>
+          <MarketSummary />
+          <SectorPerformance />
+          </div>
+          <div className='market-section'>
+          <MarketsOverview />
+          <ChartSection />
+          </div>
+        </div>
+      </div>
+    </SelectedSymbolProvider>
   );
-}
+};
 
 export default App;
